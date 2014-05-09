@@ -1,0 +1,16 @@
+------------------------------------------------------------
+Bienvenidos a la maquina virtual.
+------------------------------------------------------------
+Autor: Gustavo Pilla <gpilla@siu.edu.ar>
+
+Esta maquina fue creada con Vagrant + VirtualBox para pruebas, desarrollo y personalizaciones.
+
+NO DEBE SER UTILIZADA EN ENTORNOS DE PRODUCCION
+
+Datos Técnicos:
+
+- Ubuntu 12.04
+- Apache2
+- PHP 5.3
+- PostgreSQL 9.1
+------------------------------------------------------------
