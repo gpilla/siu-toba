@@ -13,6 +13,16 @@ git clone https://github.com/gpilla/siu-toba.git
 
 ## ¿Que tiene de diferente este repo del original?
 
+### Instalación en un solo paso!
+
+Se modifico toba para poder realizar una instalación en un solo paso:
+
+Ej:
+
+```
+{ruta_a_toba}/bin/instalar -d 0 -t 0 -h localhost -p 5432 -u postgres -c postgres -b toba -k toba
+```
+
 ### Configuración de Vagrant
 
 Para no preocuparse de la instalación de las tecnologías bases de Apache, PostgreSQL, PHP, etc... pueden iniciar Vagrant que se encargara
@@ -33,13 +43,13 @@ Simple:
 vagrant up
 ```
 
-#### ¿Y ahora que hago con el Vagrant?
+#### ¿Y ahora que puedo hacer con el Vagrant?
 
 Se puede ingresar a la maquina virtual como si fuera una maquina mas en la red en la IP: 192.168.33.10
 
-Por ejemplo pueden entrar para navegar en http://192.168.33.10
+Por ejemplo pueden entrar para desde un navegador a: http://192.168.33.10
 
-Para poder entrar al servidor podemos acceder como a cualquier server con el usuario "vagrant" y la clave "vagrant":
+Para poder entrar al servidor podemos acceder como a cualquier server via SSH con el usuario "vagrant" y la clave "vagrant":
 
 ```sh
 ssh 192.168.33.10 -l vagrant
@@ -49,4 +59,10 @@ O de una manera feliz:
 
 ```sh
 vagrant ssh
+```
+
+Por ultimo, si queremos apagar la maquina ejecutamos en nuestra consola:
+
+```sh
+vagrant halt
 ```
