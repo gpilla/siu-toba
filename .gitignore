@@ -1,2 +1,5 @@
 .vagrant
 .puppet/modules
+instalacion
+bin/entorno_toba_*
+.toba_instalado
