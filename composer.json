@@ -1,0 +1,13 @@
+{
+    "name": "gpilla/siu-toba",
+    "description": "Fork de pruebas del framework SIU-Toba",
+    "authors": [
+        {
+            "name": "Gustavo Pilla",
+            "email": "pilla.gustavo@gmail.com"
+        }
+    ],
+    "require": {
+        
+    }
+}
